@@ -34,9 +34,13 @@ Dataset Includes: Chest X-ray images, Pixel-level lung segmentation masks
 
 # Class Distribution of the dataset
 Class	Count
+
 Normal	10,192
+
 Lung Opacity	6,012
+
 COVID-19	3,616
+
 Viral Pneumonia	1,345 (Note: The dataset is imbalanced, with the Normal class dominating and Viral Pneumonia underrepresented)
 
 # Data Preparation
