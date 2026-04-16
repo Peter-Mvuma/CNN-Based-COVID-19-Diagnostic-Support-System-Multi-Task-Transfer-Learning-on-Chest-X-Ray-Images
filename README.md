@@ -44,10 +44,14 @@ COVID-19	3,616
 Viral Pneumonia	1,345 (Note: The dataset is imbalanced, with the Normal class dominating and Viral Pneumonia underrepresented)
 
 # Data Preparation
+
 Training: 70%
+
 Validation: 15%
+
 Test: 15%
 
+# Preprocessing
 Preprocessing Steps included Resizing all images to 224 × 224 pixels, Normalize pixel values to [0,1]
 converting to RGB format, applying data augmentation (horizontal flips, small rotations) and Remove corrupted/duplicate images.Stratified splitting was used to preserve class distribution across datasets.
 
