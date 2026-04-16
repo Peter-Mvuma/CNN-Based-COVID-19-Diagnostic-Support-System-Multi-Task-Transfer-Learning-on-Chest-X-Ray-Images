@@ -84,13 +84,16 @@ Instead of using ImageNet weights directly. The multi-task model was initialized
 https://drive.google.com/file/d/1RALLsX49BLb8GVK8ajcUsZ7iDdyZUUAR/view?usp=sharing
 
 # Model Architecture
+
 🔹 Encoder
 DenseNet121 (pretrained and fine-tuned)
+
 🔹 Classification Head
 Global Average Pooling
 Dense Layer (512 units)
 Dropout (0.3)
 Softmax Output (4 classes)
+
 🔹 Segmentation Head
 U-Net–style convolutional decoder
 Skip connections
