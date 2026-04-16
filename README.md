@@ -1,0 +1,2 @@
+# CNN-Based-COVID-19-Diagnostic-Support-System-Multi-Task-Transfer-Learning-on-Chest-X-Ray-Images
+A deep learning-based diagnostic support system for chest X-ray analysis using DenseNet and multi-task learning. The model also performs multiclass classification (COVID-19, Lung Opacity, Viral Pneumonia, Normal), lung segmentation, and explainability via Grad-CAM, achieving 92% accuracy and high Dice/IoU scores
