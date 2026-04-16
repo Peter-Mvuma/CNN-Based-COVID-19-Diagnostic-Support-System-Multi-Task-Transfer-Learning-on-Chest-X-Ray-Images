@@ -57,6 +57,7 @@ The following pretrained CNN architectures were evaluated
 EfficientNet
 ResNet
 DenseNet
+
 Observation during this stage - EfficientNet and ResNet showed poor performance ( around 48% accuracy), while DenseNet achieved significantly better results.
 
 2. Model Selection
@@ -100,12 +101,18 @@ Skip connections
 Sigmoid activation (binary lung mask)
 
 # Results
+
 Final Model Performance (Multi-Task Phase 1.5)
-Metric	Value
+
+# Metric	Value
 Accuracy	0.92
+
 AUC	0.986
+
 F1 Score	0.91
+
 Dice Score	0.89
+
 IoU	0.80
 
 # Baseline Comparison
