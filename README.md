@@ -105,7 +105,7 @@ ResNet	0.48
 DenseNet	0.82
 Fine-Tuned DenseNet	0.89
 
-(Note: DenseNet significantly outperformed other architectures in both accuracy and F1-score.)
+(Note: DenseNet significantly outperformed other architectures in both accuracy and F1-score)
 
 # Explainability (Grad-CAM)
 Grad-CAM was applied to highlight important regions influencing predictions,validate model focus on lung regions and improve clinical interpretability
@@ -117,3 +117,9 @@ Dice Score: 0.89
 IoU Score: 0.80
 
 Note: Segmentation improves performance by guiding the model toward lung regions, reducing false activations outside anatomical areas. Enhancing classification robustness.
+
+# Link for the Project Video Recording
+
+# Contributors
+Peter Mvuma pmvuma@mtu.edu/mvumapeter@gmail.com
+Mohammed Yushawu Abdulai myabdula@mtu.edu/amyshhgh@gmail.com
