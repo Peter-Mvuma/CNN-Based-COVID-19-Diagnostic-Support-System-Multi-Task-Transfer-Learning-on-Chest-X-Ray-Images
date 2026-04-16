@@ -74,7 +74,7 @@ Segmentation head (lung mask prediction)
 This allows the model to learn shared representations that improve both tasks.
 
 5. # Weight Transfer 
-Instead of using ImageNet weights directly. The multi-task model was initialized using fine-tuned DenseNet weights. This provided domain-specific feature representations,Faster convergence and Improved stability and performance. The link to download the saved weights is https://drive.google.com/file/d/15GF0iSLTIllTjlNvwaGWpUhXL0cUEqK1/view?usp=sharing or https://drive.google.com/file/d/1RALLsX49BLb8GVK8ajcUsZ7iDdyZUUAR/view?usp=sharing
+Instead of using ImageNet weights directly. The multi-task model was initialized using fine-tuned DenseNet weights. This provided domain-specific feature representations,Faster convergence and Improved stability and performance. The link to download the saved weights is https://drive.google.com/file/d/1RALLsX49BLb8GVK8ajcUsZ7iDdyZUUAR/view?usp=sharing
 
 # Model Architecture
 🔹 Encoder
