@@ -1,0 +1,31 @@
+How to Run the Project (Step-by-Step)
+
+1. Using Jupyter Notebook
+
+2 Install Dependencies
+pip install -r requirements.txt
+
+Typical libraries:
+
+	- TensorFlow
+	- NumPy
+	- Pandas
+	- OpenCV
+ 	- Matplotlib
+	- Scikit-learn
+
+3 Launch Jupyter Notebook
+jupyter notebook
+
+4 Open the Evaluation Notebook
+notebooks/final_model_evaluation.ipynb
+
+5 Configure Paths
+
+Inside the notebook, update:
+
+ROOT_DIR = "path_to_dataset"
+WEIGHTS_PATH = "path_to_weights_file"
+
+6 Run All Cells
+Kernel → Restart & Run All
