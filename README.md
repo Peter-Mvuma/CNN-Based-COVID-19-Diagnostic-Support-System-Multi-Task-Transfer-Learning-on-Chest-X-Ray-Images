@@ -143,4 +143,5 @@ Note: Segmentation improves performance by guiding the model toward lung regions
 
 # Contributors
 Peter Mvuma pmvuma@mtu.edu/mvumapeter@gmail.com
+
 Mohammed Yushawu Abdulai myabdula@mtu.edu/amyshhgh@gmail.com
