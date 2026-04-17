@@ -10,10 +10,10 @@ The system integrates three core capabilities that is
 
 The model classifies chest X-rays into four clinically relevant categories.
 
-COVID-19
-Lung Opacity
-Viral Pneumonia
-Normal
+* COVID-19
+* Lung Opacity
+* Viral Pneumonia
+* Normal
 
 Unlike traditional binary classification approaches, this system reflects real-world clinical scenarios, where multiple respiratory diseases must be distinguished simultaneously. This improves diagnostic relevance and practical usability in healthcare settings.
 
