@@ -4,9 +4,9 @@ A deep learning-based diagnostic support system for chest X-ray analysis using D
 This project presents a deep learning–based diagnostic support system for chest X-ray analysis using multi-task learning and transfer learning.
 
 The system integrates three core capabilities that is
-1. Multiclass classification of chest X-ray images
-2. Pixel-level lung segmentation
-3. Explainability using Grad-CAM
+* Multiclass classification of chest X-ray images
+* Pixel-level lung segmentation
+* Explainability using Grad-CAM
 
 The model classifies chest X-rays into four clinically relevant categories.
 
@@ -34,33 +34,26 @@ Dataset Includes: Chest X-ray images, Pixel-level lung segmentation masks
 
 # Class Distribution of the dataset
 Class	Count
-
-Normal	10,192
-
-Lung Opacity	6,012
-
-COVID-19	3,616
+* Normal	10,192
+* Lung Opacity	6,012
+* COVID-19	3,616
 
 Viral Pneumonia	1,345 (Note: The dataset is imbalanced, with the Normal class dominating and Viral Pneumonia underrepresented)
 
 # Data Preparation
-
-Training: 70%
-
-Validation: 15%
-
-Test: 15%
+* Training: 70%
+* Validation: 15%
+* Test: 15%
 
 # Preprocessing
-Preprocessing Steps included Resizing all images to 224 × 224 pixels, Normalize pixel values to [0,1]
-converting to RGB format, applying data augmentation (horizontal flips, small rotations) and Remove corrupted/duplicate images.Stratified splitting was used to preserve class distribution across datasets.
+Preprocessing Steps included Resizing all images to 224 × 224 pixels, Normalize pixel values to [0,1] Converting to RGB format, applying data augmentation (horizontal flips, small rotations) and Remove corrupted/duplicate images.Stratified splitting was used to preserve class distribution across datasets.
 
 # Methodology
 1. Baseline Models
 The following pretrained CNN architectures were evaluated
-EfficientNet
-ResNet
-DenseNet
+* EfficientNet
+* ResNet
+* DenseNet
 
 Observation during this stage - EfficientNet and ResNet showed poor performance ( around 48% accuracy), while DenseNet achieved significantly better results.
 
@@ -109,22 +102,18 @@ Sigmoid activation (binary lung mask)
 Final Model Performance (Multi-Task Phase 1.5)
 
 # Metric	Value
-Accuracy	0.92
-
-AUC	0.986
-
-F1 Score	0.91
-
-Dice Score	0.89
-
-IoU	0.80
+* Accuracy	0.92
+* AUC	0.986
+* F1 Score	0.91
+* Dice Score	0.89
+* IoU	0.80
 
 # Baseline Comparison
 Model	Accuracy
-EfficientNet	0.48
-ResNet	0.48
-DenseNet	0.82
-Fine-Tuned DenseNet	0.89
+* EfficientNet	0.48
+* ResNet	0.48
+* DenseNet	0.82
+* Fine-Tuned DenseNet	0.89
 
 (Note: DenseNet significantly outperformed other architectures in both accuracy and F1-score)
 
@@ -134,14 +123,13 @@ Grad-CAM was applied to highlight important regions influencing predictions,vali
 The approach extracts gradients from the final convolutional layer and overlays heatmaps on input images to visualize model attention.
 
 # Segmentation Insights
-Dice Score: 0.89
-IoU Score: 0.80
+* Dice Score: 0.89
+* IoU Score: 0.80
 
 Note: Segmentation improves performance by guiding the model toward lung regions, reducing false activations outside anatomical areas. Enhancing classification robustness.
 
 # Link for the Project Video Recording
 
 # Contributors
-Peter Mvuma pmvuma@mtu.edu/mvumapeter@gmail.com
-
-Mohammed Yushawu Abdulai myabdula@mtu.edu/amyshhgh@gmail.com
+* Peter Mvuma pmvuma@mtu.edu/mvumapeter@gmail.com
+* Mohammed Yushawu Abdulai myabdula@mtu.edu/amyshhgh@gmail.com
