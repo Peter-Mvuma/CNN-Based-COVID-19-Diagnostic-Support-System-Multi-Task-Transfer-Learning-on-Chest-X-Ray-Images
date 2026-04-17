@@ -129,6 +129,7 @@ The approach extracts gradients from the final convolutional layer and overlays 
 Note: Segmentation improves performance by guiding the model toward lung regions, reducing false activations outside anatomical areas. Enhancing classification robustness.
 
 # Link for the Project Video Recording
+As part of the requirement of this assignment, a video recording was done and can be accessed using the following link https://youtu.be/1R37Rcly5Rk
 
 # Contributors
 * Peter Mvuma pmvuma@mtu.edu/mvumapeter@gmail.com
